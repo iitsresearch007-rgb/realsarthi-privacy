@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Account deletion — RealSarthi CRM</title>
+  <meta name="description" content="Request or complete RealSarthi CRM account deletion (Google Play compliance)" />
+  <style>
+    body { margin: 0; font-family: Georgia, "Times New Roman", serif; line-height: 1.55; color: #1a1a1a; background: #f7f5f2; }
+    main { max-width: 42rem; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+    h1 { font-size: 1.75rem; line-height: 1.25; }
+    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    a { color: #1a4f8b; }
+    code { font-size: 0.95em; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Account deletion — RealSarthi CRM</h1>
+    <p class="meta">Application: RealSarthi CRM (<code>com.dealflow.app</code>)</p>
+
+    <p>
+      Google Play requires a way to delete your account and associated data.
+      RealSarthi CRM provides an <strong>in-app</strong> deletion path and this web page for account deletion requests.
+    </p>
+
+    <h2>In-app deletion (preferred)</h2>
+    <ol>
+      <li>Open RealSarthi CRM on Android and sign in.</li>
+      <li>Owner: Profile → <strong>Delete account</strong> (also under Privacy &amp; Security).</li>
+      <li>Staff: Profile → <strong>Delete account</strong>.</li>
+      <li>Type the confirmation phrase shown on screen and confirm.</li>
+    </ol>
+    <p>
+      <strong>Owner confirmation phrase:</strong> <code>DELETE AGENCY</code> — deletes your owner login and the agency cloud workspace (CRM rows cascaded).<br />
+      <strong>Staff confirmation phrase:</strong> <code>DELETE ACCOUNT</code> — deletes your personal staff login; agency CRM business data remains with the agency.
+    </p>
+
+    <h2>Email request</h2>
+    <p>
+      If you cannot use the app, email
+      <a href="mailto:support@realsarthi.com?subject=RealSarthi%20CRM%20%E2%80%94%20Account%20deletion%20request">support@realsarthi.com</a>
+      with your account email, role (owner/staff), and agency name. Identity verification may be required.
+    </p>
+
+    <h2>What is deleted vs retained</h2>
+    <ul>
+      <li><strong>Owner deletion:</strong> Owner auth account and agency-scoped CRM database records are removed via authenticated server deletion. Uploaded storage files may remain until an operator purge.</li>
+      <li><strong>Staff deletion:</strong> Staff auth/login is removed or archived; leads, deals, payments, and other agency CRM records stay with the agency as business data.</li>
+      <li><strong>Local device data:</strong> App session caches are cleared on the device after deletion.</li>
+      <li><strong>Legal/ops retention:</strong> Billing or audit records may be retained where required by law — see the Privacy Policy.</li>
+    </ul>
+
+    <h2>Privacy Policy</h2>
+    <p><a href="../privacy/">Privacy Policy for RealSarthi CRM</a></p>
+  </main>
+</body>
+</html>
